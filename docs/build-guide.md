@@ -5,7 +5,7 @@ built in one consistent way.
 
 ## Requirements
 
-- A C++20-capable compiler:
+- A C++17-capable compiler:
   - GCC 10+
   - Clang 12+
   - MSVC 19.29+

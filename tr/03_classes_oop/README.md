@@ -13,9 +13,12 @@ verebilmektir.
 - Inheritance öncesi composition düşün.
 - Polymorphic base class için virtual destructor kullan.
 - Derived objectleri base value olarak kopyalarken object slicing riskini bil.
+- Polymorphic nesneleri value olarak değil, reference veya pointer olarak geçir.
 
 ## Örnekler
 
 - `class_invariants.cpp`: constructor validation ve private state.
 - `polymorphism_virtual_destructor.cpp`: abstract base class ve virtual
   destructor.
+- `object_slicing_warning.cpp`: derived nesneyi base value olarak geçirince
+  derived davranışın nasıl kaybolduğunu gösterir.

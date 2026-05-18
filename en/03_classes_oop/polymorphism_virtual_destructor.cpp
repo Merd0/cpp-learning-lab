@@ -1,7 +1,5 @@
-#include <cmath>
 #include <iostream>
 #include <memory>
-#include <numbers>
 #include <vector>
 
 class Shape {
@@ -17,7 +15,8 @@ public:
     explicit Circle(double radius) : radius_{radius} {}
 
     double area() const override {
-        return std::numbers::pi * radius_ * radius_;
+        constexpr double pi = 3.14159265358979323846;
+        return pi * radius_ * radius_;
     }
 
     void print() const override {
