@@ -13,6 +13,8 @@ the mental model and one focused example that compiles in CI.
 - STL containers and algorithms.
 - Templates and generic code.
 - Error handling, file I/O, low-level C++, and concurrency.
+- Lambdas, strings/views, associative containers, constexpr, variant/tuple,
+  casts, operator overloading, testing, filesystem/chrono, and atomics.
 
 ## Project Layer
 
@@ -34,3 +36,17 @@ scripts.
 - The topic is linked from `LEARNING_PATH.md`.
 - The code teaches a real concept, not only syntax.
 - Naming and formatting match the rest of the repository.
+
+## Advanced Topics Kept As Notes
+
+Some modern C++ features are intentionally not required by the default build
+because the repository targets a C++17 production baseline:
+
+- C++20 concepts
+- C++20 ranges
+- C++20 coroutines
+- C++20 modules
+- C++23 library additions
+
+These can be added later as optional notes or separate examples without making
+the main handbook harder to build in conservative toolchains.

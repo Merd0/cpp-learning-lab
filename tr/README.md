@@ -22,6 +22,18 @@ düzenini birlikte öğrenmektir.
 - `11_low_level_cpp`: byte, alignment ve flag mantığı.
 - `12_concurrency`: thread, mutex ve shared state.
 - `13_patterns_architecture`: küçük pattern ve architecture kararları.
+- `14_core_language_details`: scope, `enum class`, `static` ve state kontrolü.
+- `15_strings_views`: `std::string`, `std::string_view` ve text lifetime.
+- `16_containers_iterators`: map, set, iterator ve container seçimi.
+- `17_lambdas_algorithms`: lambda capture ve algorithm pipeline.
+- `18_compile_time_constexpr`: `constexpr`, `static_assert`, compile-time veri.
+- `19_variant_tuple_enum`: `std::variant`, `std::tuple` ve alternatif veri.
+- `20_operator_overloading`: value type için operator tasarımı.
+- `21_namespaces_headers`: namespace ve header API sınırları.
+- `22_casts_type_safety`: explicit castler ve type safety.
+- `23_testing_practices`: deterministic test ve küçük test harness.
+- `24_filesystem_chrono`: taşınabilir path ve type-safe zaman.
+- `25_atomics_intro`: atomic counter ve temel shared-state güvenliği.
 - `projects/bank_account_oop`: testli modüler OOP projesi.
 
 ## Nasıl Çalışılır?

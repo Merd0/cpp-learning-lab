@@ -38,7 +38,8 @@ industry-friendly.
 - English and Turkish learning paths and reference indexes.
 - Examples for toolchain, types, references, OOP, RAII, smart pointers, move
   semantics, STL, templates, error handling, file I/O, low-level C++, threading,
-  and architecture patterns.
+  lambdas, compile-time programming, strings/views, casts, testing, filesystem,
+  chrono, atomics, and architecture patterns.
 - A modular OOP bank account project with library, demo, and tests.
 
 ## How To Build
@@ -80,6 +81,18 @@ ctest --test-dir build --output-on-failure
 - `11_low_level_cpp`: bytes, alignment, flags, and systems mental model.
 - `12_concurrency`: threads, mutexes, and safe shared state.
 - `13_patterns_architecture`: small design patterns without overengineering.
+- `14_core_language_details`: scope, `enum class`, `static`, and state control.
+- `15_strings_views`: `std::string`, `std::string_view`, and text lifetime.
+- `16_containers_iterators`: map, set, iterator usage, and container choice.
+- `17_lambdas_algorithms`: captures, predicates, transforms, and algorithm use.
+- `18_compile_time_constexpr`: `constexpr`, `static_assert`, compile-time data.
+- `19_variant_tuple_enum`: `std::variant`, `std::tuple`, and alternative data.
+- `20_operator_overloading`: value-type operators without surprising behavior.
+- `21_namespaces_headers`: API boundaries, namespaces, and header discipline.
+- `22_casts_type_safety`: explicit casts and safer downcasting.
+- `23_testing_practices`: simple deterministic tests and failure behavior.
+- `24_filesystem_chrono`: portable paths and type-safe time measurement.
+- `25_atomics_intro`: atomic counters and shared state basics.
 
 ## Maintenance Rule
 
