@@ -1,0 +1,14 @@
+build/
+cmake-build-*/
+out/
+.cache/
+.vs/
+.vscode/
+compile_commands.json
+*.exe
+*.obj
+*.o
+*.ilk
+*.pdb
+*.log
+*.tmp

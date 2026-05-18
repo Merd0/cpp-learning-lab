@@ -1,0 +1,10 @@
+cpp_lab_add_library(tr_bank_account_lib src/bank_account.cpp)
+target_include_directories(tr_bank_account_lib PUBLIC include)
+
+cpp_lab_add_executable(tr_bank_account_demo src/main.cpp)
+target_link_libraries(tr_bank_account_demo PRIVATE tr_bank_account_lib)
+
+cpp_lab_add_executable(tr_bank_account_tests tests/test_bank_account.cpp)
+target_link_libraries(tr_bank_account_tests PRIVATE tr_bank_account_lib)
+
+add_test(NAME tr_bank_account_tests COMMAND tr_bank_account_tests)
