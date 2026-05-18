@@ -1,14 +1,19 @@
 #include "bank_account.h"
 
-#include <cassert>
 #include <stdexcept>
 #include <string>
+
+void require(const bool condition) {
+    if (!condition) {
+        throw std::runtime_error{"test failed"};
+    }
+}
 
 void testDepositIncreasesBalance() {
     BankAccount account{"Ada", 1'000};
     account.deposit(500);
 
-    assert(account.balanceCents() == 1'500);
+    require(account.balanceCents() == 1'500);
 }
 
 void testWithdrawReturnsFalseWhenBalanceIsInsufficient() {
@@ -16,8 +21,8 @@ void testWithdrawReturnsFalseWhenBalanceIsInsufficient() {
 
     const bool result = account.withdraw(2'000);
 
-    assert(!result);
-    assert(account.balanceCents() == 1'000);
+    require(!result);
+    require(account.balanceCents() == 1'000);
 }
 
 void testInvalidOwnerThrows() {
@@ -30,11 +35,11 @@ void testInvalidOwnerThrows() {
         thrown = true;
     }
 
-    assert(thrown);
+    require(thrown);
 }
 
 void testFormatCentsPadsSmallKurusValues() {
-    assert(formatCents(1'005) == "10.05");
+    require(formatCents(1'005) == "10.05");
 }
 
 int main() {

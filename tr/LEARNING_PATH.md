@@ -20,23 +20,44 @@ tasarlandı.
 7. `03_classes_oop/README.md`
 8. `03_classes_oop/class_invariants.cpp`
 9. `03_classes_oop/polymorphism_virtual_destructor.cpp`
-10. `projects/bank_account_oop/README.md`
+10. `03_classes_oop/object_slicing_warning.cpp`
+11. `projects/bank_account_oop/README.md`
 
-## Faz 4: RAII Ve Ownership
+## Faz 4: Ownership Ve Lifetime
 
-11. `04_raii_memory/README.md`
-12. `04_raii_memory/raii_unique_ptr.cpp`
+12. `04_raii_memory/README.md`
+13. `04_raii_memory/raii_unique_ptr.cpp`
+14. `06_smart_pointers/README.md`
+15. `06_smart_pointers/unique_shared_weak.cpp`
+16. `07_move_semantics/README.md`
+17. `07_move_semantics/rule_of_zero_and_move.cpp`
 
-## Faz 5: STL Temeli
+## Faz 5: Standard Library Ve Generic Code
 
-13. `05_stl/README.md`
-14. `05_stl/vector_algorithm_basics.cpp`
+18. `05_stl/README.md`
+19. `05_stl/vector_algorithm_basics.cpp`
+20. `10_templates/README.md`
+21. `10_templates/template_repository.cpp`
 
-## Gelecek Fazlar
+## Faz 6: Uygulama Sınırları
 
-- Derin OOP: inheritance, object slicing, interface, composition, operatorler.
-- Resource yönetimi: Rule of 0, Rule of 3, Rule of 5, move semantics.
-- Smart pointerlar: `unique_ptr`, `shared_ptr`, `weak_ptr`, ownership graph.
-- STL: iterator, algorithm, map, unordered map, span, string view.
-- Template: function template, class template, specialization, concepts.
-- Systems C++: memory layout, alignment, cache, threading, atomics.
+22. `08_error_handling/README.md`
+23. `08_error_handling/optional_exceptions_status.cpp`
+24. `09_file_io/README.md`
+25. `09_file_io/file_stream_records.cpp`
+
+## Faz 7: Systems Ve Architecture
+
+26. `11_low_level_cpp/README.md`
+27. `11_low_level_cpp/bytes_alignment_flags.cpp`
+28. `12_concurrency/README.md`
+29. `12_concurrency/thread_safe_counter.cpp`
+30. `13_patterns_architecture/README.md`
+31. `13_patterns_architecture/strategy_pattern.cpp`
+
+## Faz 8: Proje Pratiği
+
+32. `projects/bank_account_oop/include/bank_account.h`
+33. `projects/bank_account_oop/src/bank_account.cpp`
+34. `projects/bank_account_oop/src/main.cpp`
+35. `projects/bank_account_oop/tests/test_bank_account.cpp`

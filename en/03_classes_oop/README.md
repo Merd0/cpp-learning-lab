@@ -12,9 +12,12 @@ modeling ownership, and deciding when runtime polymorphism is worth the cost.
 - Prefer composition before inheritance.
 - Use a virtual destructor for polymorphic base classes.
 - Avoid object slicing when working with derived objects.
+- Pass polymorphic objects by reference or pointer, not by value.
 
 ## Examples
 
 - `class_invariants.cpp`: constructor validation and private state.
 - `polymorphism_virtual_destructor.cpp`: abstract base class and virtual
   destructor.
+- `object_slicing_warning.cpp`: why passing derived objects by base value loses
+  derived behavior.

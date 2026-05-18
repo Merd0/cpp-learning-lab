@@ -7,10 +7,10 @@ interface, implementation, demo code, and tests.
 
 ```txt
 bank_account_oop/
-├── include/bank_account.h
-├── src/bank_account.cpp
-├── src/main.cpp
-└── tests/test_bank_account.cpp
+|-- include/bank_account.h
+|-- src/bank_account.cpp
+|-- src/main.cpp
+`-- tests/test_bank_account.cpp
 ```
 
 ## Concepts

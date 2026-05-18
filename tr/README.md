@@ -1,23 +1,34 @@
 # Türkçe Yol
 
 Bu klasör C++ konularını Türkçe anlatır. Amaç sadece syntax ezberi yapmak
-değil; OOP, RAII, ownership, STL, test, CMake ve sürdürülebilir proje düzenini
-birlikte öğrenmektir.
+değil; OOP, RAII, ownership, STL, template, test, CMake ve sürdürülebilir proje
+düzenini birlikte öğrenmektir.
 
-## Mevcut Konular
+## Konular
 
-- `00_toolchain`: derleyici, CMake ve ilk çalıştırılabilir dosya.
-- `01_basics`: tipler, initialization, `auto` ve temel çıktı.
-- `02_functions_references`: fonksiyonlar, referanslar, `const` ve niyet.
-- `03_classes_oop`: class, invariant, polymorphism ve virtual destructor.
-- `04_raii_memory`: RAII, ownership ve smart pointer yönü.
-- `05_stl`: standart container ve algorithm temeli.
-- `projects/bank_account_oop`: testli küçük modüler OOP projesi.
+- `00_toolchain`: compiler, CMake, CI ve ilk çalıştırılabilir dosya.
+- `01_basics`: tipler, initialization, `auto` ve güvenli başlangıçlar.
+- `02_functions_references`: fonksiyonlar, referanslar, `const` ve mutation
+  niyeti.
+- `03_classes_oop`: class, invariant, encapsulation, polymorphism ve virtual
+  destructor.
+- `04_raii_memory`: resource lifetime ve ownership.
+- `05_stl`: standard container ve algorithm temeli.
+- `06_smart_pointers`: `unique_ptr`, `shared_ptr`, `weak_ptr`.
+- `07_move_semantics`: copy, move, Rule of 0 ve Rule of 5 yönü.
+- `08_error_handling`: exception, `std::optional` ve status enum.
+- `09_file_io`: stream tabanlı text file record işlemleri.
+- `10_templates`: type-safe generic code.
+- `11_low_level_cpp`: byte, alignment ve flag mantığı.
+- `12_concurrency`: thread, mutex ve shared state.
+- `13_patterns_architecture`: küçük pattern ve architecture kararları.
+- `projects/bank_account_oop`: testli modüler OOP projesi.
 
 ## Nasıl Çalışılır?
 
-1. Önce konu README dosyasını oku.
-2. Örneği root CMake build ile derle ve çalıştır.
-3. Kodda object lifetime ve ownership akışını takip et.
-4. Küçük bir davranışı değiştirip tekrar build al.
-5. Konu netleşince küçük bir test veya egzersiz ekle.
+1. `LEARNING_PATH.md` sırasını takip et.
+2. Örnekten önce konu README dosyasını oku.
+3. Her şeyi repo root klasöründen build et.
+4. Object lifetime, ownership ve invariant akışını takip et.
+5. Küçük bir davranışı değiştirip tekrar build al.
+6. Yeni örnekleri sadece gerçek bir C++ fikri öğretiyorsa ekle.
