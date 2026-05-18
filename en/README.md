@@ -23,6 +23,18 @@ and build discipline.
 - `11_low_level_cpp`: bytes, alignment, and flags.
 - `12_concurrency`: threads, mutexes, and shared state.
 - `13_patterns_architecture`: small design patterns and architecture decisions.
+- `14_core_language_details`: scope, `enum class`, `static`, and state control.
+- `15_strings_views`: `std::string`, `std::string_view`, and text lifetime.
+- `16_containers_iterators`: map, set, iterator usage, and container choice.
+- `17_lambdas_algorithms`: lambda captures and algorithm pipelines.
+- `18_compile_time_constexpr`: `constexpr`, `static_assert`, compile-time data.
+- `19_variant_tuple_enum`: `std::variant`, `std::tuple`, and alternative data.
+- `20_operator_overloading`: operator design for value types.
+- `21_namespaces_headers`: namespace and header API boundaries.
+- `22_casts_type_safety`: explicit casts and type safety.
+- `23_testing_practices`: deterministic tests and small test harnesses.
+- `24_filesystem_chrono`: portable paths and type-safe time.
+- `25_atomics_intro`: atomic counters and basic shared-state safety.
 - `projects/bank_account_oop`: modular OOP project with tests.
 
 ## How To Study

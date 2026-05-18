@@ -36,28 +36,52 @@ advanced topics too early.
 
 18. `05_stl/README.md`
 19. `05_stl/vector_algorithm_basics.cpp`
-20. `10_templates/README.md`
-21. `10_templates/template_repository.cpp`
+20. `15_strings_views/README.md`
+21. `15_strings_views/string_string_view.cpp`
+22. `16_containers_iterators/README.md`
+23. `16_containers_iterators/map_set_iterator.cpp`
+24. `17_lambdas_algorithms/README.md`
+25. `17_lambdas_algorithms/lambda_algorithm_pipeline.cpp`
+26. `10_templates/README.md`
+27. `10_templates/template_repository.cpp`
 
 ## Phase 6: Application Boundaries
 
-22. `08_error_handling/README.md`
-23. `08_error_handling/optional_exceptions_status.cpp`
-24. `09_file_io/README.md`
-25. `09_file_io/file_stream_records.cpp`
+28. `08_error_handling/README.md`
+29. `08_error_handling/optional_exceptions_status.cpp`
+30. `09_file_io/README.md`
+31. `09_file_io/file_stream_records.cpp`
+32. `21_namespaces_headers/README.md`
+33. `21_namespaces_headers/namespace_api_design.cpp`
+34. `23_testing_practices/README.md`
+35. `23_testing_practices/simple_test_harness.cpp`
 
 ## Phase 7: Systems And Architecture
 
-26. `11_low_level_cpp/README.md`
-27. `11_low_level_cpp/bytes_alignment_flags.cpp`
-28. `12_concurrency/README.md`
-29. `12_concurrency/thread_safe_counter.cpp`
-30. `13_patterns_architecture/README.md`
-31. `13_patterns_architecture/strategy_pattern.cpp`
+36. `14_core_language_details/README.md`
+37. `14_core_language_details/scope_enum_static.cpp`
+38. `18_compile_time_constexpr/README.md`
+39. `18_compile_time_constexpr/constexpr_lookup.cpp`
+40. `19_variant_tuple_enum/README.md`
+41. `19_variant_tuple_enum/variant_tuple_enum.cpp`
+42. `20_operator_overloading/README.md`
+43. `20_operator_overloading/value_type_operator.cpp`
+44. `22_casts_type_safety/README.md`
+45. `22_casts_type_safety/casts_type_safety.cpp`
+46. `11_low_level_cpp/README.md`
+47. `11_low_level_cpp/bytes_alignment_flags.cpp`
+48. `24_filesystem_chrono/README.md`
+49. `24_filesystem_chrono/filesystem_chrono.cpp`
+50. `12_concurrency/README.md`
+51. `12_concurrency/thread_safe_counter.cpp`
+52. `25_atomics_intro/README.md`
+53. `25_atomics_intro/atomic_counter.cpp`
+54. `13_patterns_architecture/README.md`
+55. `13_patterns_architecture/strategy_pattern.cpp`
 
 ## Phase 8: Project Practice
 
-32. `projects/bank_account_oop/include/bank_account.h`
-33. `projects/bank_account_oop/src/bank_account.cpp`
-34. `projects/bank_account_oop/src/main.cpp`
-35. `projects/bank_account_oop/tests/test_bank_account.cpp`
+56. `projects/bank_account_oop/include/bank_account.h`
+57. `projects/bank_account_oop/src/bank_account.cpp`
+58. `projects/bank_account_oop/src/main.cpp`
+59. `projects/bank_account_oop/tests/test_bank_account.cpp`
