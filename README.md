@@ -1,4 +1,8 @@
-# cpp-learning-lab
+# C++ Learning Lab — Modern C++ Systems Foundation
+
+**English | [Türkçe](tr/README.md)**
+
+**[Start in English](en/LEARNING_PATH.md) · [Türkçe öğrenme yoluna başla](tr/LEARNING_PATH.md)**
 
 Modern C++ Systems Foundation is a long-term C++ learning and reference lab.
 The goal is not to collect random snippets. The goal is to build a practical
